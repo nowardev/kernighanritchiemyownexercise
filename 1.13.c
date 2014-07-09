@@ -9,7 +9,7 @@ main(){
 	 ndigit[i] = 0;
  
 	}
-	
+	printf(" \n Type some char , then press ENTER .To draw the histogram press CTRL D  \n \n ");
 	while ( (c =  getchar()) != EOF)	{
 			j=0 ;
 			for (i = 32 ; i <=127 ; ++i ){
@@ -30,7 +30,7 @@ main(){
 		for (i = 0 ; i <=96 ; ++i ){
 			if (max <= ndigit[i]){
 				max = ndigit[i];
-				maxtag = i ; 
+				maxtag = i +32; 
 			}
 		}
 printf("\n Max value is : %d for char \"%c\" \n", max , maxtag );
