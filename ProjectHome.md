@@ -1,0 +1,1 @@
+my own solutions for exercise you can find in kernighan ritchie  language C
